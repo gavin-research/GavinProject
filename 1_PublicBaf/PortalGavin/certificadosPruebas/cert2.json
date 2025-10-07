@@ -1,0 +1,15 @@
+{
+	"name": "Carne Conducir",
+	"address": "0x123456789012344567890bae4567e2cd135786421469cbe1acbedfff21462efa",
+	"date": "05/11/2024",
+	"data": {
+		"titulo": "Conductor",
+		"modelo": "Tipo A",
+		"nombre": "Pablo",
+		"fecha": "17/08/2023",
+		"notaMedia": 8,
+		"puntos": 14,
+		"examinador": "Pepe",
+		"caducidad": "17/08/2045"
+	}
+}

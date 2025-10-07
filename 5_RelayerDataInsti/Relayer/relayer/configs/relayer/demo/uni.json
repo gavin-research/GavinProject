@@ -1,0 +1,14 @@
+{
+  "chain": {
+    "@type": "/relayer.chains.ethereum.config.ChainConfig",
+    "chain_id": "uni",
+    "eth_chain_id": 1339,
+    "rpc_addr": "http://localhost:8645",
+    "hdw_mnemonic": "guess abandon width glance list metal burger bullet school isolate giggle surge",
+    "hdw_path": "m/44'/60'/0'/0/0",
+    "ibc_address": "0xc54F5E249F61d9c455c4d867765DdF030a236F46"
+  },
+  "prover": {
+    "@type": "/relayer.provers.mock.config.ProverConfig"
+  }
+}

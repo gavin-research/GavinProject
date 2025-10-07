@@ -1,0 +1,29 @@
+{
+  "sharedSecret": "0f1cb35bfbfd582202eb1fa4dbfe3975ca9740f5d59a4aee0e95c601bfe8cf24",
+  "certificate": {
+    "name": "AliceCourse",
+    "date": "2025-9-7",
+    "holder": "0xEca8bB9Be63164Ff5b9F1e0a3a6fC8b369E8455F",
+    "userPublicKey": "0x04aabbf1c2b7401d6fbd5764d10198070720fcde9970537196d83c2c0a538b6f9eeb0da187eb8410a34bae5a1373b0c348d7d738ba9cbf9654ef20098331d8b484",
+    "root": "8d902ab3e359b08c1020b3b9fc2a05efde34139fa129fa3ca54a405c3ae4e78e",
+    "address": "0xf7e5615700dc55c1bf9708534605e8960ac443aa57f707f88c696a96a8f199ae",
+    "data": {
+      "Name": "Alice",
+      "Course": "Programming",
+      "Score": "8.5",
+      "Year": "2025"
+    },
+    "sign": {
+      "data": "8d902ab3e359b08c1020b3b9fc2a05efde34139fa129fa3ca54a405c3ae4e78e",
+      "sign": "e5159b14ed8ea1816b34f67fb61c2d3f980dfea6eece0ef328760b153b06d67c57cc4a9ea8b3122cef8f465d382e22f9c4ad3aea8f848f31aaebcb374c4e0347",
+      "publickey": "048bc823327105417ecc7f0e2774c5491ce5378d57ce98b2a020ddbbc4dc51baefc092355066450383bd704f8c8d4749ebdb7a201cc4021ccd5f9f726ad94c0cfb"
+    },
+    "salts": [
+      "MGHDi1steB1bkSlfp+vWNPykH+XeeXu/G/4doQolg4cSSXgwg6UwJ7na7FF6mQg2BxC9TPu3Npoe0drTDNS9tX8zuueEWgbKEAIebeCmVA5FXVGKqzjcDFQ2MR7NeC5xrI5njxO+PTKmDuqmf1xyj1qn4GiVly7qtAWrNk7z5RKc2m5EEj+0KXglVfa7mqiJEB+5VxNQL/gm7+qo/0FkFj/rY46KqH0yFLR0MOimcpZR/iCDy3z3MC2oC9fOoXU6VFB+/SlBT8xL22yLZbyea/ENouTZou2XhFbxg0Xn6q58QH3SoofA55SPMeswUayVe6O5uz5sBnSds2e8WGCXrQ==",
+      "A0N9lhEXTraccptrX/E/L/1Bey/boflLSVOxmJcsRL1Lu58eHBhYdxnkSZejaS/x78BXTKc2T9SjoFrv6TmPcH/Y9e3TAHcbxcvMW1a0Lf2or0u9pXxix1gt0Ce9JQYZcTt11Y7qzLzbklaKnvQSlCs1w4u15rnzK8DBdY8R+C+cQYrJaU5MyXWfCysFLdcdc4onTUIABLbJ/kCkrHSYaKfJC35ZSRcpXOtIRR5d5IVst5j3ESu3gPlLFcrAYf/Vwp0WniZJP87cUwVi1wjEU0Wpa15LXVtYopC9ToelG2Y4a2XlET4tdtH3ruMZc/Phn8u76NnH5JWyaFyJAsVmkg==",
+      "cz+rlW6AFvB+YMTjyW3X5y36DsJWyIOD/JsMJQf+80XZFvEEcx4ag/pJ6HJkGnMtHVbgU88cFr82AlQzRmzcouG+94gJMJ5jsH9BP8YADSgvbqxMJJJHkt6YK89zpRid2ZSrO6SyY1Mey955xMd2I9nR7OD2tLNCuL2xFUB3qdNyxVIvRrH3RDezCv5lbBSReFywff2c/320yB2ez2o2hJONg4iD5vBJQYfpRvHmh/guEc/Bg4J8bmbA0lG7DlHw5Qp4BXCtQ0NMRHrznTcbGRp6djkqXN0AsB++a8hnomH+hAlXW9+Mw2I7IbYCx3QVtyYd1vuJAJpX02H36jvuCw==",
+      "pbQqQxydIDcNKRfvghGVa7BgTkbBuJNr2M+rhIntJ5RBrbpiALaY3/Oy6ayofdQh44yHkS1oPQWz5ZifwwzE2aEL9TtuUtRWkiZEwO7Xq33MAjS961R74To3WdYqVoKfiGPDmsscuhBVUqKuusFJj0nXh5Ne6Ec7Ob8pLCiwFP9NV1wR0ksPaq+rBTuzJl/qT/UZb+9ejU6BTRTIFg0DvCE/5hgjSF+dCaOiX9YUrLfFlbeMvqHQfCO/jebv2VUQn0b3ClVj1WIfHGRjUoXSXXIfU6y7FRZnp27p21d2HNJKk1Rn670LT8XMp0CBfBvW4TfhbOF24dRJRYF/bfcLpA==",
+      "BGvW5psfk+9Zmk34WGRqSJhZ3y9blcIPl4tLfVeZOTOTAAA1LIsuWUKEB8PX8YG5CLSv0vuRgCNB5mO6U8Gzqte8uGyD7ly6LsxlpYUuTpfQ0OtLATl/JuFg3ejYPld+gzFOz7PTTd2d2Fm5UERVu77NajYffgFs48NdR3At7z97ZdDBi0ngwwa6IL+RK6h4halRN5IZkrLBm8JCfRWQCJp2hwFTFPaUYwpwlbuHx58bP8WG5dnitVQgTBS/+FWdQe0nBk1r+Bo2pIg8JK6YlGw8hSFQS2KrIdZUC5LwkIv/OSgQ0VzQ7QO+DCJZDRKGozxXSDbxu3XviBRx56rvaA=="
+    ]
+  }
+}

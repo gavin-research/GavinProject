@@ -1,0 +1,10 @@
+{
+	"nav_cert": "Certificates",
+	"nav_profile": "Profile",
+	"success_verify": "Certificate verified succesfully",
+	"error_access": "Problems with access",
+	"error_verify": "Failed to verify the integrity of the certificate",
+	"error_no_access": "Access denied",
+	"footer": "Grant TED2021-130828B-I00 funded by MCIN/AEI/10.13039/501100011033 and European Union NextGenerationEU/PRTR",
+	"loading": "Loading..."
+}

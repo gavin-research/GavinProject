@@ -1,0 +1,23 @@
+{
+  "src": {
+    "chain-id": "data",
+    "client-id": "mock-client-0",
+    "connection-id": "connection-0",
+    "channel-id": "channel-0",
+    "port-id": "transfer",
+    "order": "unordered",
+    "version": "transfer-1"
+  },
+  "dst": {
+    "chain-id": "uni",
+    "client-id": "mock-client-0",
+    "connection-id": "connection-0",
+    "channel-id": "channel-0",
+    "port-id": "transfer",
+    "order": "unordered",
+    "version": "transfer-1"
+  },
+  "strategy": {
+    "type": "naive"
+  }
+}

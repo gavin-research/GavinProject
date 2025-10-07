@@ -1,0 +1,4 @@
+#!/bin/bash
+npm run build
+pm2 start dist/index.js --name "bafData" --env PORT=$PORT
+pm2 status

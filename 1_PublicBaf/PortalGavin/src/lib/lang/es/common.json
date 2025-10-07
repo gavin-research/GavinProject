@@ -1,0 +1,10 @@
+{
+	"nav_cert": "Certificados",
+	"nav_profile": "Perfil",
+	"success_verify": "Certificado verificado correctamente",
+	"error_access": "Problemas con los accessos",
+	"error_verify": "Fallo al verificar integridad del certificado",
+	"error_no_access": "No se tiene acceso",
+	"footer": "Proyecto TED2021-130828B-I00 de investigación financiado por MICIU/AEI/10.13039/501100011033 y por la Unión Europea NextGenerationEU/PRTR",
+	"loading": "Cargando..."
+}

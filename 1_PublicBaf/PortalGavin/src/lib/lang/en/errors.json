@@ -1,0 +1,12 @@
+{
+	"send": "Error sending message",
+	"no_fields": "No selected fields",
+	"no_salts": "No salts available",
+	"root_sign": "Root not signed by an entity",
+	"layers": "Error verifying layers",
+	"layers_length": "The layers do not match in length",
+	"root": "Error verifying root",
+	"hash": "Hash failed",
+	"no_cert_validation": "No certificate stored for validation",
+	"sign_verification": "Failed to verify sign"
+}

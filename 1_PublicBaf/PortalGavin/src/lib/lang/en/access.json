@@ -1,0 +1,20 @@
+{
+	"share_address": "Address to share",
+	"info_entity": "Entity",
+	"info_access": "Access",
+	"info_action": "Action",
+	"share_no_fields": "There are no fields to share, the certificate will be shared entirelly",
+	"share_fields": "Select the fields to shara:",
+	"share_3rd_party_access": "Grant third party total access",
+	"share_all": "Everything",
+	"deny_confirmation": "Are you shure you want to deny access ?",
+	"add": "Add",
+	"deny": "Deny",
+	"cancel": "Cancel",
+	"share_secret": "Shared secret",
+	"access_lvl_not_registered": "Not Registered",
+	"access_lvl_total": "Total Access",
+	"access_lvl_partial": "Partial Access",
+	"access_lvl_thirds": "Third Parties Access",
+	"access_lvl_denied": "Access Denied"
+}

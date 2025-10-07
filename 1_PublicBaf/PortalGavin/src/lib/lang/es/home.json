@@ -1,0 +1,14 @@
+{
+	"title": "Mis certificados",
+	"table_name": "Nombre",
+	"table_date": "Fecha",
+	"table_actions": "Acciones",
+	"wallet_connect": "Conectar Wallet",
+	"wallet_not_detected": "Metamask no se ha detectado!",
+	"wallet_install": "Instale metamask por favor",
+	"loading": "Cargando ...",
+	"upload": "Subir y guardar en local Certificados",
+	"no_data": "Sin fecha",
+	"certificate": "Certificado",
+	"info": "Información"
+}

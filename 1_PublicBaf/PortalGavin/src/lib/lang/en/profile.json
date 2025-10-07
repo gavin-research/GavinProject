@@ -1,0 +1,11 @@
+{
+	"title": "My profile",
+	"account": "Current account:",
+	"cert_address": "Certificate address:",
+	"cert_proof": "Get Proof",
+	"cert_db": "Get Certificate",
+	"upload": "Upload Certificate Proof",
+	"no_access": "No acces",
+	"yes_access": "Access with value",
+	"user_public_key": "Get Public Key"
+}

@@ -1,0 +1,12 @@
+{
+	"send": "Error en el envio",
+	"no_fields": "No hay campos seleccionados",
+	"no_salts": "No se tienen salts disponibles",
+	"root_sign": "Raiz no firmada por la entidad",
+	"layers": "Error al verificar capas",
+	"layers_length": "Las capas no coinciden en longitud",
+	"root": "Error al verificar la raíz",
+	"hash": "Fallo hash",
+	"no_cert_validation": "No se tiene nada almacenado para realizar la validación",
+	"sign_verification": "Fallo al verificar firma"
+}

@@ -1,0 +1,7 @@
+{
+    admin 0.0.0.0:2020
+}
+gavin-access.francecentral.cloudapp.azure.com {
+	root * /home/gavin/PortalGavin/build
+	reverse_proxy * localhost:3000
+}

@@ -1,0 +1,11 @@
+{
+	"title": "Mi perfil",
+	"account": "Cuenta actual:",
+	"cert_address": "Dirección de certificado:",
+	"cert_proof": "Obtener Prueba",
+	"cert_db": "Obtener Certificado",
+	"upload": "Subir pruebas para Certificados",
+	"no_access": "Sin acceso",
+	"yes_access": "Accceso con valor",
+	"user_public_key": "Obtener Clave Pública"
+}

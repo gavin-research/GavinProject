@@ -1,0 +1,6 @@
+{
+	"upload": "Upload your cert here",
+	"ok": "File uploaded",
+	"error_json": "Error parsing JSON",
+	"error_file": "Error reading file"
+}

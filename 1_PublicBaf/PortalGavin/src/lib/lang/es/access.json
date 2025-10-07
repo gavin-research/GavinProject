@@ -1,0 +1,20 @@
+{
+	"share_address": "Dirección a compartir",
+	"info_entity": "Entidad",
+	"info_access": "Acceso",
+	"info_action": "Acción",
+	"share_no_fields": "No hay campos para compartir, si se comparte será el certificado en su totalidad.",
+	"share_fields": "Seleccione los campos a compartir para:",
+	"share_3rd_party_access": "Acceso total a terceros terceros",
+	"share_all": "Todos",
+	"deny_confirmation": "Seguro que quiere denegar el acceso ",
+	"add": "Añadir",
+	"deny": "Denegar",
+	"cancel": "Cancelar",
+	"share_secret": "Secreto compartido",
+	"access_lvl_not_registered": "No registrado",
+	"access_lvl_total": "Acceso Total",
+	"access_lvl_partial": "Acceso Parcial",
+	"access_lvl_thirds": "Acceso a Terceros",
+	"access_lvl_denied": "Acceso Denegado"
+}

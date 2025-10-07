@@ -1,0 +1,99 @@
+version: "3.3"
+
+x-besu-def: &besu-def
+  restart: "on-failure"
+  image: hyperledger/besu:23.7.3
+  env_file:
+    - ./config/besu/.env
+  entrypoint:
+    - /bin/bash
+    - -c
+    - |
+
+      /opt/besu/bin/besu \
+      --config-file=/config/config.toml \
+      --p2p-host=$$(hostname -i) \
+      --rpc-http-api=EEA,WEB3,ETH,NET,TRACE,DEBUG,ADMIN,TXPOOL,PERM,QBFT \
+      --rpc-ws-api=EEA,WEB3,ETH,NET,TRACE,DEBUG,ADMIN,TXPOOL,PERM,QBFT ;
+
+services:
+  validator1:
+    <<: *besu-def
+    ports:
+      - 21001:8545/tcp
+      - 30303
+      - 9545
+    environment:
+      - OTEL_RESOURCE_ATTRIBUTES=service.name=validator1,service.version=besu:23.7.3
+    labels:
+      - "consensus=besu"
+    volumes:
+      - ./config/besu/:/config
+      - ./config/nodes/validator1:/opt/besu/keys
+      - ./logs/besu:/tmp/besu
+    networks:
+      gavin-net:
+        ipv4_address: 172.16.239.11
+    deploy:
+      resources:
+        limits:
+          memory: 3G
+
+  validator2:
+    <<: *besu-def
+    ports:
+      - 21002:8545/tcp
+      - 30303
+      - 9545
+    environment:
+      - OTEL_RESOURCE_ATTRIBUTES=service.name=validator2,service.version=besu:23.7.3
+    labels:
+      - "consensus=besu"
+    volumes:
+      - ./config/besu/:/config
+      - ./config/nodes/validator2:/opt/besu/keys
+      - ./logs/besu:/tmp/besu
+    depends_on:
+      - validator1
+    networks:
+      gavin-net:
+        ipv4_address: 172.16.239.12
+    deploy:
+      resources:
+        limits:
+          memory: 3G
+
+  rpcnode:
+    <<: *besu-def
+    container_name: rpcnode
+    environment:
+      - OTEL_RESOURCE_ATTRIBUTES=service.name=rpcnode,service.version=besu:23.7.3
+    volumes:
+      - ./config/besu/:/config
+      - ./config/nodes/rpcnode:/opt/besu/keys
+      - ./logs/besu:/tmp/besu
+      - ./data:/opt/besu/data
+
+    depends_on:
+      - validator1
+    ports:
+      - 8545:8545/tcp
+      - 8546:8546/tcp
+    networks:
+      gavin-net:
+        ipv4_address: 172.16.239.15
+    deploy:
+      resources:
+        limits:
+          memory: 1G
+volumes:
+  public-keys:
+  ethlogger:
+
+networks:
+  gavin-net:
+    name: gavin-net
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.16.239.0/24

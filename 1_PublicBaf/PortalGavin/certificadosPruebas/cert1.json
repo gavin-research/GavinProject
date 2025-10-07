@@ -1,0 +1,13 @@
+{
+	"name": "Universidad",
+	"address": "0xf73910ddb3e35a2db69926e7d422df45a52751d09bc99ceaed08ed2dd497930e",
+	"date": "12/06/2019",
+	"salts": ["1231231232", "1332312132"],
+	"root": "e5a30cf53e1ff9cd61371280617848f26055f01fe63d944f1318c1c8e593b19e",
+	"data": {
+		"nombre": "Pablo",
+		"titulo": "Ingeniero",
+		"notaMedia": 8,
+		"fecha": "17/08/1999"
+	}
+}

@@ -1,0 +1,8 @@
+node_modules
+dist
+*-lock.json
+.env
+logs
+._*
+mongodb
+db_data
